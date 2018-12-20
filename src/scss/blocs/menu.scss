@@ -1,0 +1,62 @@
+.menu{
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.95);
+  border: 20px solid rgb(78, 57, 37);
+  z-index: 10;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  transform: translateY(-100%);
+  transition: transform 0.3s;
+  color: white;
+}
+
+.menu--reset{
+  transform: none;
+}
+
+.menu__title{
+  font-size: 60px;
+  position: absolute;
+  top: 10%;
+}
+
+.menu__score{
+  font-size: 50px;
+  position: absolute;
+  top: 25%;
+
+  & span{
+    color: red;
+  }
+}
+
+.menu__death{
+  font-size: 20px;
+  width: 800px;
+  text-align: center;
+  line-height: 30px;
+  position: absolute;
+  top: 40%;
+}
+
+.menu__retry{
+  width: 200px;
+  height: 80px;
+  background-color: rgb(78, 57, 37); 
+  border: 2px solid #A67B53;
+  position: absolute;
+  top: 60%;
+  font-size: 30px;
+  font-family: Western;
+  color: white;
+  cursor: pointer;
+}
+
+
+
+
+

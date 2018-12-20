@@ -1,0 +1,99 @@
+body.home {
+
+  color: white;
+  background: url(../images/WANTED.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  font-family: Western;
+}
+
+
+.homePage{
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+
+.title{
+  letter-spacing: 25px;
+  font-size: 80px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 5%;
+  z-index: 2;
+}
+
+.card__question--home{
+  top: 5%;
+}
+
+.arrowkeyLeft{
+  position: absolute;
+  top: 60%;
+  left: 10%;
+  width: 150px;
+  height: 150px;
+}
+
+.arrowkeyRight{
+  position: absolute;
+  top: 60%;
+  right: 10%;
+  width: 150px;
+  height: 150px;
+}
+
+.key-yes{
+  position: absolute;
+  top: 50%;
+  left: 12.5%;
+  font-size: 60px;
+}
+
+.key-no{
+  position: absolute;
+  top: 50%;
+  right: 13.5%;
+  font-size: 60px;
+}
+
+.cloud1{
+  position: absolute;
+  top: 0;
+  left: 0;
+  animation: cloud1 40s linear infinite;
+} 
+
+.cloud2{
+  position: absolute;
+  top: 0;
+  left: 0;
+  animation: cloud2 40s linear infinite;
+}
+
+.cloud3{
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2; 
+  animation: cloud3 40s linear infinite;
+}
+
+@keyframes cloud1 {
+  0%{transform: translate(-1050px, 20px);}
+  100%{transform: translate(1400px, 20px);}
+}
+
+@keyframes cloud2 {
+  0%{transform: translate(-500px, 200px) scale(0.6);}
+  100%{transform: translate(1400px, 200px) scale(0.6);}
+}
+
+@keyframes cloud3 {
+  0%{transform: translate(-280px, 50px) scale(0.8);}
+  100%{transform: translate(2000px, 50px) scale(0.8);}
+}
+
