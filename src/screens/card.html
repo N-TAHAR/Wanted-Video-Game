@@ -4,17 +4,34 @@
     <h2 class="menu__score"></h2>
     <p class="menu__death">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus molestiae laboriosam harum, consectetur natus nisi, illo neque et aspernatur delectus alias suscipit eos placeat exercitationem voluptas? Rem in cum tenetur.</p>
     <button class="menu__retry">Recommencer</button>
+    <img class="pendu" src="../images/pendu.svg" alt="pendu">
   </section>
+  <div class="arrow__help--left">
+      <p>Non</p>
+      <img src="../images/left-arrow-variant-key-on-keyboard.png" alt="keyboard left arrow key">
+    </div>
+    <div class="arrow__help--right">
+      <p>Oui</p>
+      <img src="../images/keyboard-key-pointing-to-right.png" alt="keyboard right arrow key">
+    </div>
 
-  <section class="rules">
-    <h1 class="rules__title">Règles</h1>
-    <p class="rules__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus molestiae laboriosam harum, consectetur natus nisi, illo neque et aspernatur delectus alias suscipit eos placeat exercitationem voluptas? Rem in cum tenetur.</p>
-    <button class="rules__start">C'est Parti !</button>
-  </section>
+    <section class="rules">
+      <h1 class="rules__title">Règles</h1>
+      <p class="rules__text">Vous êtes le chef des brigands et vous devez survivre le plus longtemps possible au Far West.</p>
+      <ul class="rules__resources">
+        <li><i class="fas fa-dollar-sign sign"></i>Argent</li>
+        <li><img class="gun-rules" src="../images/gun.png" alt="">Puissance</li>
+        <li><i class="fas fa-star star"></i>Notoriété</li>
+        <li><i class="fas fa-handshake handshake"></i>Loyauté</li>
+      </ul>
+      <p class=rules__warning>Attention,  il suffit que l’une de ces propriétés tombe à <span class="value-death">0</span> ou s'élève à <span class="value-death">100</span> pour que vous perdiez. Bonne chance !</p>
+      <img class="rules__image" src="../images/CHARLATAN_COMPLET.png" alt="charlatan image">
+      <button class="rules__start">C'est Parti !</button>
+    </section>
 
   <section class="score">
+    <div class="score__days">Jour</div>
     <div class="score__number" data-oxo-score ></div>
-    <div class="score__days">Days</div>
   </section>
 
   <section class="settings">
@@ -27,20 +44,19 @@
   </section>
   <section class="resources">
     <div><div class="resources__gold"></div></div>
-    <div><div class="resources__power"></div></div>
+    <div class="resources__gun--position"><img class="gun" src="../images/gun.png" alt=""><div class="resources__power"></div></div>
     <div><div class="resources__notoriety"></div></div>
     <div><div class="resources__loyalty"></div></div>
   </section>
   <section class="card">
     <div class="card__question"></div>
     <div class="card__container">
-      <img src="../images/PRETRECOMPLET.png" alt="priest" />
+      <img class="card__priest"src="../images/PRETRECOMPLET.png" alt="priest" />
     </div>
   </section>
   <audio id="cardSound" src="../sounds/cardSound.wav"></audio>
   <object>
     <param name="autostart" value="true">
-    <param name="src" value="sound.mp3">
     <param name="autoplay" value="true">
     <param name="controller" value="true">
     <audio class="back-theme" src="../sounds/back-theme.mp3"></audio>
@@ -50,6 +66,12 @@
   <img
     class="character--hidden"
     data-card="1"
+    src="../images/indian.png"
+    alt=""
+  />
+  <img
+    class="character--hidden"
+    data-card="2"
     src="../images/BANDIT_2_COMPLET.png"
     alt=""
   />
@@ -67,26 +89,63 @@
   />
   <img
     class="character--hidden"
-    data-card="2"
-    src="../images/bandit_1_complet.png"
-    alt=""
-  />
-  <img
-    class="character--hidden"
     data-card="5"
-    src="../images/femme.png"
+    src="../images/BANDIT_2_COMPLET.png"
     alt=""
   />
   <img
   class="character--hidden"
   data-card="6"
-  src="../images/sherif_complet.png"
+  src="../images/femme.png"
   alt=""
 />
 <img
   class="character--hidden"
   data-card="7"
-  src="../images/indian.png"
+  src="../images/femme.png"
   alt=""
 />
+<img
+  class="character--hidden"
+  data-card="8"
+  src="../images/sherif_complet.png"
+  alt=""
+/>
+<img
+  class="character--hidden"
+  data-card="9"
+  src="../images/BANDIT_2_COMPLET.png"
+  alt=""
+/>
+<img
+  class="character--hidden"
+  data-card="10"
+  src="../images/sherif_complet.png"
+  alt=""
+/>
+<img
+  class="character--hidden"
+  data-card="11"
+  src="../images/sherif_complet.png"
+  alt=""
+/>
+<img
+  class="character--hidden"
+  data-card="12"
+  src="../images/PRETRECOMPLET.png"
+  alt=""
+/>
+<img
+  class="character--hidden"
+  data-card="13"
+  src="../images/PRETRECOMPLET.png"
+  alt=""
+/>
+<!-- <img
+  class="character--hidden"
+  data-card="14"
+  src="../images/PRETRECOMPLET.png"
+  alt=""
+/> -->
+
 </body>

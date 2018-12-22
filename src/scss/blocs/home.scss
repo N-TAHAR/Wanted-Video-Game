@@ -6,7 +6,41 @@ body.home {
   background-position: center;
   font-family: Western;
 }
+.typed-cursor{
+  visibility: hidden;
+}
+.arrow__help--left {
+  opacity: .6;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  p{
+    margin-bottom: 5px;
+    font-size: 30px;
+    color: white;
 
+  }
+  flex-direction: column;
+  position: absolute;
+  top: 50%;
+  left: 20%;
+}
+
+.arrow__help--right {
+  opacity: .6;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  p{
+    margin-bottom: 5px;
+    font-size: 30px;
+    color: white;
+  }
+  flex-direction: column;
+  position: absolute;
+  top: 50%;
+  right: 20%;
+}
 
 .homePage{
   width: 100%;
@@ -15,7 +49,6 @@ body.home {
   position: relative;
 }
 
-
 .title{
   letter-spacing: 25px;
   font-size: 80px;
@@ -23,47 +56,14 @@ body.home {
   left: 50%;
   transform: translateX(-50%);
   top: 5%;
-  z-index: 2;
-}
-
-.card__question--home{
-  top: 5%;
-}
-
-.arrowkeyLeft{
-  position: absolute;
-  top: 60%;
-  left: 10%;
-  width: 150px;
-  height: 150px;
-}
-
-.arrowkeyRight{
-  position: absolute;
-  top: 60%;
-  right: 10%;
-  width: 150px;
-  height: 150px;
-}
-
-.key-yes{
-  position: absolute;
-  top: 50%;
-  left: 12.5%;
-  font-size: 60px;
-}
-
-.key-no{
-  position: absolute;
-  top: 50%;
-  right: 13.5%;
-  font-size: 60px;
+  z-index: 1;
 }
 
 .cloud1{
   position: absolute;
   top: 0;
   left: 0;
+  z-index: -1;
   animation: cloud1 40s linear infinite;
 } 
 
@@ -78,7 +78,6 @@ body.home {
   position: absolute;
   top: 0;
   left: 0;
-  z-index: 2; 
   animation: cloud3 40s linear infinite;
 }
 
