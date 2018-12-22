@@ -1,4 +1,9 @@
-# hetic-w1-p2021-15-olimar
-Projet de notre deuxième semaine intensive de développement à Hetic, portant sur la conception et le développement d'un jeu vidéo en une semaine
+# Wanted Video Game
 
-Lien vers le site netlify: https://15-olimar.netlify.com/
+2ème semaine intensive dans laquelle nous devions concevoir, développer et présenter un jeu vidéo en 5 jours. 
+
+Lien du site: https://wanted.netlify.com/
+
+Le jeu est conçu pour une dimension d'écran de 1280*800. Néanmoins vous pouvez y jouer sur toutes les dimensions desktop.
+
+Pour jouer vous devez utiliser les flèches gauche/droite du clavier. Vous pouvez aussi utiliser entrée pour valider.
